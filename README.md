@@ -190,22 +190,19 @@ IBM Z Mini Hackathon TTW/
 │   ├── SecureFlow_PRD.md      # Product requirements
 │   ├── SecureFlow_Tech_Stack.md
 │   ├── EXECUTION_PLAN.md
-│   ├── DEMO_GUIDE.md
-│   ├── DEMO_VIDEO_SCRIPT.md    # 3-min demo script
 │   └── DEVPOST.md              # Devpost submission text
 ├── backend/
 │   ├── app/
 │   │   ├── main.py             # FastAPI app, evaluate route
 │   │   ├── models.py           # Pydantic request/response
-│   │   ├── scoring.py         # Five signals, aggregate score
-│   │   ├── explainability.py  # Groq + template, recommendation
-│   │   └── audit.py           # JSON line per decision
+│   │   ├── scoring.py          # Five signals, aggregate score
+│   │   ├── explainability.py   # Groq + template, recommendation
+│   │   └── audit.py            # JSON line per decision
 │   ├── requirements.txt
-│   ├── .env.example
 │   └── Dockerfile
 ├── frontend/
 │   ├── src/
-│   │   ├── components/        # Dashboard, TransactionStream, LatencyMeter, RiskGauge, FlaggedSidePanel
+│   │   ├── components/         # Dashboard, TransactionStream, LatencyMeter, RiskGauge, FlaggedSidePanel
 │   │   ├── api/client.ts
 │   │   ├── lib/synthetic.ts
 │   │   └── types.ts
@@ -255,7 +252,7 @@ IBM Z Mini Hackathon TTW/
 
 ### Optional: API keys and config
 
-- Copy `backend/.env.example` to `backend/.env` (or set env vars).
+- Create `backend/.env` if needed (see root `.env.example` for variable names, or set env vars).
 - **`GROQ_API_KEY`** — Enables Groq for natural-language explanations on flagged transactions. Without it, template-based text is used.
 - **`SECUREFLOW_THRESHOLD`** — Risk score above which a transaction is flagged (default 35 for demo). Increase (e.g. 50–75) for fewer flags.
 
