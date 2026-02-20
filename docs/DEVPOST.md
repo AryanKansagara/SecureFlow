@@ -98,7 +98,7 @@ We don’t run on Telum hardware; we **simulate the idea** in software. Our API 
    `cd frontend` → `npm install` → `npm run dev`
 4. Open **http://localhost:5173**, check **Demo mode**, click **Start stream**, and click any **Flagged** row to see the explanation and recommendation.
 
-Docs in the repo: [PRD](docs/SecureFlow_PRD.md), [Tech Stack](docs/SecureFlow_Tech_Stack.md), [Demo Guide](docs/DEMO_GUIDE.md).
+Docs in the repo: [PRD](docs/SecureFlow_PRD.md), [Tech Stack](docs/SecureFlow_Tech_Stack.md).
 
 ---
 
@@ -111,10 +111,16 @@ Docs in the repo: [PRD](docs/SecureFlow_PRD.md), [Tech Stack](docs/SecureFlow_Te
 
 ---
 
+## UN Sustainable Development Goals (SDGs) targeted
+
+- **SDG 8 (Decent work and economic growth):** Reducing fraud supports financial stability and sustainable economic activity; fewer losses and disputes strengthen trust.
+- **SDG 9 (Industry, innovation and infrastructure):** Real-time AI in financial infrastructure (inspired by Telum); resilient and efficient payment systems.
+- **SDG 16 (Peace, justice and strong institutions):** Explainability and auditability support transparent, accountable institutions; fraud detection supports integrity of financial systems.
+
+---
+
 ## Team
-
-[Your names and roles — e.g. “We are [Name] and [Name], and we built SecureFlow for the IBM Z Mini Hackathon to show how real-time, explainable fraud detection can live at the point of transaction.”]
-
+Built by Aryan.
 ---
 
 *SecureFlow — Real-time fraud detection at the point of transaction. Inspired by IBM Telum. Built for the IBM Z Mini Hackathon.*

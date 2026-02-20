@@ -299,6 +299,18 @@ SecureFlow is inspired by **IBM’s Telum processor** in the IBM z16 mainframe, 
 
 ---
 
+## UN Sustainable Development Goals (SDGs) targeted
+
+SecureFlow contributes to the following [UN Sustainable Development Goals](https://sdgs.un.org/goals):
+
+| SDG | Goal | Relevance to SecureFlow |
+| ----- | ----- | ----------------------- |
+| **8** | Decent work and economic growth | Reducing fraud supports financial stability and sustainable economic activity; fewer losses and disputes strengthen institutional and consumer trust. |
+| **9** | Industry, innovation and infrastructure | Demonstrates innovative use of real-time AI in critical financial infrastructure (inspired by Telum); promotes resilient and efficient payment systems. |
+| **16** | Peace, justice and strong institutions | Explainability and auditability support transparent, accountable institutions; fraud detection contributes to the integrity of financial systems. |
+
+---
+
 ## License
 
 MIT License — see [LICENSE](LICENSE) for details if present.
