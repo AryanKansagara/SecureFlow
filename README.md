@@ -283,7 +283,6 @@ docker compose up --build
 
 - **Product & submission:** [docs/SecureFlow_PRD.md](docs/SecureFlow_PRD.md), [docs/DEVPOST.md](docs/DEVPOST.md)  
 - **Tech stack:** [docs/SecureFlow_Tech_Stack.md](docs/SecureFlow_Tech_Stack.md)  
-- **Demo:** [docs/DEMO_GUIDE.md](docs/DEMO_GUIDE.md), [docs/DEMO_VIDEO_SCRIPT.md](docs/DEMO_VIDEO_SCRIPT.md)  
 - **API:** http://localhost:8000/docs when the backend is running  
 
 ---
