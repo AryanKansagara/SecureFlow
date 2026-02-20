@@ -1,0 +1,13 @@
+services:
+  api:
+    build: ./backend
+    ports: ["8000:8000"]
+    environment:
+      - SECUREFLOW_THRESHOLD=35
+
+  dashboard:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports: ["80:80"]
+    depends_on: ["api"]
